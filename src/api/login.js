@@ -6,8 +6,7 @@ export function loginByUsername(userName, password) {
     method: 'post',
     params: {
       userName: userName,
-      password: password,
-      type: 1
+      password: password
     }
   })
 }
@@ -18,8 +17,7 @@ export function valLogin(userName, password) {
     method: 'post',
     params: {
       userName: userName,
-      password: password,
-      type: 1
+      password: password
     }
   })
 }

@@ -5,5 +5,5 @@ const prodEnv = require('./prod.env')
 module.exports = merge(prodEnv, {
   NODE_ENV: '"development"',
   ENV_CONFIG: '"dev"',
-  BASE_API: '"/ktx-adoption-web-server/api"',
+  BASE_API: '"/my-blog/api"',
 })

@@ -11,12 +11,12 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-      '/ktx-adoption-web-server/api': {
-      	target: 'http://localhost:9080',
-      	changeOrigin: true,
-      	pathRewrite: {
-      		'^/ktx-adoption-web-server/api': '/ktx-adoption-web-server'
-      	}
+      '/my-blog/api': {
+        target: 'http://localhost:7070',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/my-blog/api': '/my-blog'
+        }
       }
       // '/ktx-web/api': {
       //   target: 'http://www.gdktxtech.com:9000',
@@ -29,7 +29,7 @@ module.exports = {
 
     // Various Dev Server settings cc
     host: 'localhost', // can be overwritten by process.env.HOST
-    port: 8000, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
+    port: 7000, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
     autoOpenBrowser: false,
     errorOverlay: true,
     notifyOnErrors: true,
