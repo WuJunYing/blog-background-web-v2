@@ -14,7 +14,7 @@
           clearable
           class="filter-item"
           v-model="finance.fundChangeType"
-          placeholder="财务类型"
+          placeholder="财务类型爱的"
           @change="$handleFilter">
           <el-option v-for="(value, key) in fundChangeTypes" :key="key" :label="value" :value="key"></el-option>
         </el-select>
