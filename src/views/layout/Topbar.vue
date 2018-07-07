@@ -201,8 +201,8 @@ export default {
   top: 0;
   left: 0;
   z-index: 22;
-  background-color: #2b83f9;
-  background-image: linear-gradient(143deg,#2945cb 20%,#2b83f9 81%,#3a9dff);
+  background-color: #f9001f;
+  background-image: linear-gradient(143deg, #363b3f 20%, #41494d 81%, #4f5558);
   .logo {
     float: left;
     width: 180px;

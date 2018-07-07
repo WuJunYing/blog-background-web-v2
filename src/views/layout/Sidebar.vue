@@ -4,7 +4,7 @@
       unique-opened
       :default-active="$route.path"
       :collapse="isCollapse"
-      background-color="#324157"
+      background-color="#41494d"
       text-color="#fff"
       active-text-color="#ffd04b"
       class="el-menu-vertical-demo">
