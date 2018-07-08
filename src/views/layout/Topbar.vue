@@ -2,7 +2,7 @@
   <div>
     <div class="ktx-head">
       <router-link class='inlineBlock' to="/">
-        <div class="logo">认养管理系统-平台端</div>
+        <div class="logo">XXX</div>
       </router-link>
       <div class="top-menu">
         <div

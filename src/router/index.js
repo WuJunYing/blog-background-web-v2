@@ -27,7 +27,7 @@ export const constantRouterMap = [
     name: '首页',
     hidden: true,
     children: [
-      { path: 'dashboard', component: _import('dashboard/ktx-index') }
+      { path: 'dashboard', component: _import('dashboard/dashboard') }
     ]
   }
 ]
@@ -59,7 +59,7 @@ export const asyncRouterMap = [
   {
     path: '/system/merchant',
     component: Layout,
-    name: '商家管理',
+    name: 'XXX',
     icon: 'fa-building-o',
     children: [
       { path: 'merchant', component: _import('merchant/merchant'), name: '商家列表' },
@@ -69,7 +69,7 @@ export const asyncRouterMap = [
   {
     path: '/system/product',
     component: Layout,
-    name: '产品管理',
+    name: 'XXX',
     icon: 'fa-th-list',
     children: [
       { path: 'productList', component: _import('product/productList'), name: '产品列表' },
