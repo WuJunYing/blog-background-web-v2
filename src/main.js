@@ -13,11 +13,6 @@ import './permission' // 权限
 import waves from '@/directive/waves/index.js' // 水波纹指令
 import { pageUtilsInstall } from '@/utils/vueCommon'
 import 'font-awesome-webpack2'
-import VueAreaLinkage from 'vue-area-linkage'
-import 'quill/dist/quill.core.css'
-import 'quill/dist/quill.snow.css'
-import 'quill/dist/quill.bubble.css'
-import vueQuillEditor from 'vue-quill-editor'
 import VCharts from 'v-charts'
 
 import Viewer from 'v-viewer'
@@ -33,8 +28,6 @@ Vue.use(Viewer, {
 
 Vue.use(ElementUI)
 Vue.directive('waves', waves)
-Vue.use(VueAreaLinkage)
-Vue.use(vueQuillEditor)
 Vue.use(VCharts)
 
 pageUtilsInstall(Vue)
