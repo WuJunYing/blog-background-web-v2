@@ -18,13 +18,6 @@ module.exports = {
           '^/my-blog/api': '/my-blog'
         }
       }
-      // '/ktx-web/api': {
-      //   target: 'http://www.gdktxtech.com:9000',
-      //   changeOrigin: true,
-      //   pathRewrite: {
-      //     '^/ktx-web/api': '/ktx-web'
-      //   }
-      // }
     },
 
     // Various Dev Server settings cc

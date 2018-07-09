@@ -168,7 +168,7 @@
         const response = await this.$http.post('/dashboard/getTodoMessageList.json')
         this.todoMessageList = response.data.rows
       },
-      // 获取首页数目
+      // 获取首页数目  试试
       async getDashboardDetails() {
         const response = await this.$http.post('/dashboard/getDashboardDetails.json')
         const temp = response.data.rows
