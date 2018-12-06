@@ -60,8 +60,8 @@
             待办事项
             </span>
             &nbsp;&nbsp;&nbsp;&nbsp;
-            <el-button v-if="todoCommentList.length > 0" class="batch-read-btn" :plain="true" type="danger" size="mini" @click="handleCommentBatchRead">评论批量已读</el-button>
-            <el-button v-if="todoMessageList.length > 0" class="batch-read-btn" :plain="true" type="danger" size="mini" @click="handleMessageBatchRead">留言批量已读</el-button>
+            <el-button v-if="todoCommentList && todoCommentList.length > 0" class="batch-read-btn" :plain="true" type="danger" size="mini" @click="handleCommentBatchRead">评论批量已读</el-button>
+            <el-button v-if="todoMessageList && todoMessageList.length > 0" class="batch-read-btn" :plain="true" type="danger" size="mini" @click="handleMessageBatchRead">留言批量已读</el-button>
           </div>
           <hr style="width: 650px;padding-left: -100px" color="#FF5348">
           <el-row>
