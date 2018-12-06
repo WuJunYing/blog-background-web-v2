@@ -39,7 +39,7 @@
         </el-row>
       </el-header>
 
-      <!-- 中下-->
+      <!-- 中下 -->
       <el-main style="padding-top: 120px">
         <ve-histogram
           :data="chartData"
