@@ -160,17 +160,17 @@
     methods: {
       // 获取未读评论
       async getTodoCommentList() {
-        const response = await this.$http.post('/dashboard/getTodoCommentList.json')
+        const response = await this.$http.post('/dashboard/getTodoCommentList')
         this.todoCommentList = response.data.rows
       },
       // 获取未读留言
       async getTodoMessageList() {
-        const response = await this.$http.post('/dashboard/getTodoMessageList.json')
+        const response = await this.$http.post('/dashboard/getTodoMessageList')
         this.todoMessageList = response.data.rows
       },
       // 获取首页数目  试试
       async getDashboardDetails() {
-        const response = await this.$http.post('/dashboard/getDashboardDetails.json')
+        const response = await this.$http.post('/dashboard/getDashboardDetails')
         const temp = response.data.rows
         this.dashboardDetails = {
           totalComment: temp.totalComment,
@@ -181,7 +181,7 @@
       },
       // 获取图表数据
       async getChartData() {
-        const response = await this.$http.post('/dashboard/getChartData.json')
+        const response = await this.$http.post('/dashboard/getChartData')
         const chartData = response.data.result
         let rows = []
         if (chartData && chartData.length) {
